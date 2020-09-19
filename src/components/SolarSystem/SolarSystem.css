@@ -1,0 +1,15 @@
+.solar {
+    background: url('./stars.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    position: relative;
+    top: 100px;
+}
+

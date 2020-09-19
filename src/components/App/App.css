@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(50, 73, 148, 0.73)), url(../../background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  color: #f4f4f4;
+}
+
+.hero {
+  position: relative;
+  top: 300px;
+  line-height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

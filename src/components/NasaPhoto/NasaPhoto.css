@@ -1,0 +1,24 @@
+.photoContainer {
+    padding: 40px 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.photoContainer .photoImage {
+    width: 40%;
+   
+}
+
+.photoContainer .photoImage img {
+    width: 100%;
+}
+
+.photoContainer .photoInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

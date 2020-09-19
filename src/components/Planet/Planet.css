@@ -1,0 +1,30 @@
+.planet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #f4f4f4;
+}
+
+.planet .image-planet {
+    width: 60%;
+    height: 400px;
+    cursor: pointer;
+  
+}
+
+.planet .image-planet img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.planet .info-planet {
+   
+    width: 40%;
+}
+
+.planet:active {
+    width: 100%;
+}
+
+
