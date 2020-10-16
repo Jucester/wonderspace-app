@@ -10,7 +10,12 @@
     width: 60%;
     height: 400px;
     cursor: pointer;
-  
+    transition: all 1s ease-in-out;
+}
+
+.planet .image-planet.active {
+    width: 100%;
+    height: 100%;
 }
 
 .planet .image-planet img {
@@ -18,13 +23,36 @@
     object-fit: cover;
 }
 
-.planet .info-planet {
-   
-    width: 40%;
+.planet .info-planet  {
+    width: 100%;   
 }
 
-.planet:active {
-    width: 100%;
+.planet .tabs-planets {
+    margin: auto;
+}
+
+.planet .info-planet .texts-planet {
+    padding: 2rem;
+}
+
+.modal {
+    border: 1px solid red;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s ease-in-out;
+}
+  
+.display-block {
+    display: block;
+}
+  
+.display-none {
+    display: none;
 }
 
 
